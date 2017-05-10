@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<!--
+author: Zachariah Sobieszczyk <occultdigital@gmail.com>
+-->
+<html>
+
+<head>
+  <title> zTerminal | ver 0.3</title>
+
+<link rel="stylesheet" type="text/css" href="css/termStyle.css">
+
+
+</head>
+<body>
+
+<!-- Terminal guts nested in here -->
+
+<div id="terminal" onclick="document.getElementById('termInput').focus(); return false;" onkeyup="document.getElementById('termInput').focus(); return false;">
+
+  <p>Welcome to zTerminal 0.3</p>
+  <p>A simple terminal simulator for websites.</p>
+  <p>It is very much a work in progress, started on 2017-5-04. Type in help to see basic commands.</p><br>
+
+
+  <ol id="terminalDisp">
+  </ol>
+
+  <p>zTerminal@localhost:~ <input type='text' id='termInput' value='' ></p>
+</div>
+
+<!-- Terminal guts nested in here -->
+
+
+<!-- scripts -->
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="js/zterm.js"></script>
+
+</body>
+</html>

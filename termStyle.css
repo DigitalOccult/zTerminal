@@ -1,0 +1,98 @@
+/*
+* project: zTerminal
+* file: termStyle.css
+* author: Zachariah Sobieszczyk <occultdigital@gmail.com>
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Aldrich');
+
+body {
+margin: 0;
+background-color: black;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+overflow: hidden;
+}
+
+/**************
+*
+*     #terminal
+*
+**************/
+
+#terminal {
+  background-color: background-color: rgba(0,0,0,0.7);
+  font-family: Aldrich;
+  margin:0;
+  padding:0;
+  padding-top:0;
+}
+
+
+#terminal {
+    height:100vh;
+}
+
+
+
+/**************
+*
+*   ol and p
+*
+**************/
+#terminal ol, p {
+    color: #33ff66;
+    font-family: Aldrich;
+    font-size: 18px;
+    list-style:none;
+    padding-left:0;
+    padding-bottom: 0;
+}
+
+#terminal ol {
+    margin-top: -20px;
+    margin-bottom: -20px;
+  }
+
+/**************
+*
+*     input
+*
+**************/
+#terminal input {
+    font-size: 18px;
+    width: 50%;
+    background: transparent;
+    border: none;
+    color: #33ff66;
+    font-family: Aldrich;
+    border:0px
+}
+
+input:focus{
+    outline: none;
+}
+
+input[type="termInput"] {
+    -webkit-appearance: textfield;
+}
+
+input[type="termInput"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+
+body {
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes fontfix {
+    from { opacity: 1; }
+    to   { opacity: 1; }
+}

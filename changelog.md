@@ -7,7 +7,6 @@ Ripped off the format for this log from [keepachangelog.com].
 I have never really programmed anything that required me to keep track of versions. As such, my version numbering follows no standard, is based on gut feelings and quite arbitrary.  
 
 ## [Upcoming]
--Terminal version that is contained in draggable, resizable modal
 -Get rid of the clear counter as it is a very ineloquent workaround.  
 -Individual Man pages for all commands
 -File System
@@ -17,6 +16,13 @@ I have never really programmed anything that required me to keep track of versio
 -Better functionality.
 -Customization options.
 -Other things...
+
+## [0.3] - 2017-5-09
+### Added
+- Integrated terminal to "OccultOs" Desktop Emulator. It nicely fits down into a modal
+- cleaned up css to make it easier to customize and makes it more "plug and play"
+- All commands are now accessed conveniently via a loop instead of individually, making it easier to add commands.
+- Commands that run code can now also be run through the same system as the "basic commands"
 
 ## [0.2] - 2017-5-05
 ### Added
