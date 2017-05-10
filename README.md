@@ -1,4 +1,4 @@
 # zTerminal
-A simple, customization terminal simulator for websites, written in javascript/jQuery and other things. 
+A simple, customization terminal simulator for websites, written in javascript/jQuery.  
 
-Version 0.3
+A work in progress: Version 0.3
